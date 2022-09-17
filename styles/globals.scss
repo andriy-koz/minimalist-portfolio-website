@@ -40,3 +40,13 @@ h3 {
 p {
   line-height: 30px;
 }
+
+button {
+  font-size: 12px;
+  font-family: $font-public;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-left: 35px;
+  padding-right: 32px;
+  height: 48px;
+}
