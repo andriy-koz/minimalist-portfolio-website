@@ -1,0 +1,64 @@
+@import 'variables';
+
+.btn-primary {
+  &:hover {
+    cursor: pointer;
+    background-color: $cyan;
+    .stroke-one,
+    .stroke-two,
+    .stroke-three {
+      border-bottom: 1.2px solid #fff;
+      border-right: 1.2px solid #fff;
+    }
+  }
+  width: 200px;
+  height: 48px;
+  background-color: $dark-blue;
+  color: #fff;
+  border: none;
+  position: relative;
+  margin-left: 50px;
+  font-family: $font-public;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-left: 48px;
+  letter-spacing: 2px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn-left-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 48px;
+  height: 48px;
+  background-color: rgba(0, 0, 0, 0.1);
+  mix-blend-mode: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stroke-one {
+}
+.stroke-two {
+  top: -3.8px;
+  opacity: 50%;
+}
+.stroke-three {
+  top: -7.6px;
+  opacity: 25%;
+}
+
+.arrows-container {
+  position: relative;
+  div {
+    position: absolute;
+    border-bottom: 1.2px solid $cyan;
+    border-right: 1.2px solid $cyan;
+    width: 9px;
+    height: 9px;
+    transform: rotate(45deg) skew(-18deg, -18deg) translateX(-50%);
+  }
+}
