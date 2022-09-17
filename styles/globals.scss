@@ -50,3 +50,12 @@ button {
   padding-right: 32px;
   height: 48px;
 }
+
+button:hover {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
