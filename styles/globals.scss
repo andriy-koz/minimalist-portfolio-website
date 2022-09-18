@@ -55,6 +55,19 @@ button:hover {
   cursor: pointer;
 }
 
+a {
+  color: $grayish-blue;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+a:hover {
+  cursor: pointer;
+  color: $cyan;
+}
+
 .container {
   max-width: 1110px;
   margin: 0 auto;
