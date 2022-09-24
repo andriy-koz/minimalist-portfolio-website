@@ -1,4 +1,4 @@
-import styles from '../styles/ButtonPrimary.module.scss';
+import styles from '../../styles/ButtonPrimary.module.scss';
 
 const ButtonPrimary = ({ children }) => {
   return (

@@ -1,0 +1,29 @@
+.main-container {
+  position: relative;
+  max-width: 1440px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 34px;
+  background-image: url('/image-homepage-hero.webp');
+  background-repeat: no-repeat;
+  background-position: top 0px right -30px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 357px;
+  width: 445px;
+  background-color: #fff;
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  margin-left: 165px;
+
+  button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
