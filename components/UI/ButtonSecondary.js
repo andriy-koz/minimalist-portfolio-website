@@ -1,4 +1,4 @@
-import styles from '../styles/ButtonSecondary.module.scss';
+import styles from '../../styles/ButtonSecondary.module.scss';
 
 const ButtonSecondary = ({ children }) => {
   return <button className={styles['btn-secondary']}>{children}</button>;
