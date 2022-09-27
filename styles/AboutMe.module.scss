@@ -1,8 +1,28 @@
+@import 'variables';
+
 .main-container {
   margin-top: 170px;
-  max-width: 1015px;
   display: flex;
 }
 
 .side-info {
+  margin-left: 125px;
+  width: 350px;
+  padding-bottom: 46px;
+  border-top: 1px solid rgba(51, 50, 61, 0.2);
+  border-bottom: 1px solid rgba(51, 50, 61, 0.2);
+  h2 {
+    margin-top: 50px;
+  }
+  p {
+    margin-top: 28px;
+  }
+  button {
+    margin-top: 24px;
+  }
+}
+
+.image-container {
+  width: 540px;
+  height: 600px;
 }

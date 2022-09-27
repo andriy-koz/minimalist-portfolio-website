@@ -5,13 +5,15 @@ import styles from '../styles/AboutMe.module.scss';
 const AboutMe = () => {
   return (
     <div className={`${styles['main-container']} container`}>
-      <Image
-        alt='Profile photo'
-        width={540}
-        height={600}
-        src={'/image-homepage-profile.webp'}
-        className={styles.photo}
-      />
+      <div className={styles['image-container']}>
+        <Image
+          alt='Profile photo'
+          width={540}
+          height={600}
+          src={'/image-homepage-profile.webp'}
+          layout='fixed'
+        />
+      </div>
       <div className={styles['side-info']}>
         <h2>About Me</h2>
         <p>
