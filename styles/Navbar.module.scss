@@ -1,34 +1,8 @@
-@import 'variables';
-
 .navbar {
   height: 32px;
   margin-top: 64px;
   display: flex;
   justify-content: space-between;
-}
-
-.logo {
-  width: 120px;
-  height: 32px;
-  position: relative;
-}
-
-.logo-triangle {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 0;
-  width: 0;
-  border: 15.5px solid transparent;
-  border-top: 0;
-  border-bottom: 26px solid $grayish-blue;
-}
-
-.logo-triangle.logo-triangle-2 {
-  margin-top: 6px;
-  margin-left: 29px;
-  border-bottom: 0;
-  border-top: 26px solid $grayish-blue;
 }
 
 .links {

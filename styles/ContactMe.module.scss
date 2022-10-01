@@ -1,0 +1,18 @@
+.contacto {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  justify-content: space-between;
+
+  h2 {
+    max-width: 340px;
+  }
+}
+
+.separador {
+  margin-top: 8px;
+  width: 531px;
+  height: 1px;
+  background-color: rgba(51, 50, 61, 0.2);
+}

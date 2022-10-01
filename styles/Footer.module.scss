@@ -1,0 +1,15 @@
+@import 'variables';
+
+.footer {
+  margin: 0 auto;
+  max-width: 1440px;
+  height: 80px;
+  margin-top: 150px;
+  background-color: $grayish-blue;
+  color: #979797;
+}
+
+.footer-container {
+  height: 100%;
+  display: flex;
+}
