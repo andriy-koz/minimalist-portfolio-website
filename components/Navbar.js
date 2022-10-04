@@ -7,8 +7,8 @@ const Navbar = () => {
     <nav className={`container ${styles.navbar}`}>
       <TrianglesLogo />
       <div className={styles.links}>
-        <Link href=''>home</Link>
-        <Link href=''>portfolio</Link>
+        <Link href='/'>home</Link>
+        <Link href='/portfolio'>portfolio</Link>
         <Link href=''>contact me</Link>
       </div>
     </nav>
