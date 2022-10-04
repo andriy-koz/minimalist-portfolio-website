@@ -5,8 +5,8 @@ import TrianglesLogo from './UI/TrianglesLogo';
 const Navbar = () => {
   return (
     <nav className={`container ${styles.navbar}`}>
+      <TrianglesLogo />
       <div className={styles.links}>
-        <TrianglesLogo />
         <Link href=''>home</Link>
         <Link href=''>portfolio</Link>
         <Link href=''>contact me</Link>

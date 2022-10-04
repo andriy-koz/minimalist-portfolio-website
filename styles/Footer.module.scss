@@ -13,6 +13,24 @@
   display: flex;
   align-items: center;
   a {
-    color: #979797;
+    color: #fff;
+  }
+}
+
+.links-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 41px;
+}
+
+.images-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  gap: 20px;
+  img:hover {
+    cursor: pointer;
   }
 }
