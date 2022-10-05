@@ -4,6 +4,7 @@
   width: 120px;
   height: 32px;
   position: relative;
+  transform: translateY(-50%);
 }
 
 .logo-triangle {
@@ -26,6 +27,7 @@
 
 .logo-footer {
   border-bottom: 26px solid #fff;
+  transform: translateY(50%);
 }
 
 .logo-footer.logo-triangle-2 {

@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Hero />
       <AboutMe />
-      <ContactMe />
+      <ContactMe mt={150} mb={132} />
     </>
   );
 }
