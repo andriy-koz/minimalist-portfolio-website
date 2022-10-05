@@ -68,6 +68,10 @@ a:hover {
   color: $cyan;
 }
 
+li {
+  list-style: none;
+}
+
 .container {
   max-width: 1110px;
   margin: 0 auto;
