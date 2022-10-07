@@ -1,6 +1,6 @@
-import styles from '../../styles/TrianglesLogo.module.scss';
+import styles from '../../styles/components/UI/LogoTriangles.module.scss'
 
-const TrianglesLogo = ({ footer }) => {
+const LogoTriangles = ({ footer }) => {
   return (
     <div className={styles.logo}>
       <div
@@ -14,7 +14,7 @@ const TrianglesLogo = ({ footer }) => {
         }`}
       />
     </div>
-  );
-};
+  )
+}
 
-export default TrianglesLogo;
+export default LogoTriangles

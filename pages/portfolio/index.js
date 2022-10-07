@@ -1,18 +1,18 @@
-import db from "../../db.json"
-import ContactMe from "../../components/ContactMe"
-import ProjectInfo from "../../components/ProjectInfo"
-import styles from "../../styles/portfolio.module.scss"
+import db from '../../db.json'
+import ContactMe from '../../components/ContactMe'
+import ProjectInfo from '../../components/ProjectInfo'
+import styles from '../../styles/pages/portfolio.module.scss'
 
 const portfolio = () => {
   return (
     <>
-      <ul className={styles["projects-list"]}>
+      <ul className={styles['projects-list']}>
         {db.map((item, index) => (
           <li key={index}>
             <ProjectInfo
               title={item.title}
               info={item.info}
-              src={item["img-portfolio"]}
+              src={item['img-portfolio']}
               reverse={index % 2 === 0 ? false : true}
             />
           </li>

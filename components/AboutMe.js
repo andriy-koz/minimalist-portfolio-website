@@ -1,17 +1,17 @@
-import Image from 'next/image';
-import ButtonSecondary from './UI/ButtonSecondary';
-import styles from '../styles/AboutMe.module.scss';
+import Image from 'next/image'
+import ButtonSecondary from './UI/ButtonSecondary'
+import styles from '../styles/components/AboutMe.module.scss'
 
 const AboutMe = () => {
   return (
     <div className={`${styles['main-container']} container`}>
       <div className={styles['image-container']}>
         <Image
-          alt='Profile photo'
+          alt="Profile photo"
           width={540}
           height={600}
           src={'/image-homepage-profile.webp'}
-          layout='fixed'
+          layout="fixed"
         />
       </div>
       <div className={styles['side-info']}>
@@ -29,7 +29,7 @@ const AboutMe = () => {
         <ButtonSecondary>go to portfolio</ButtonSecondary>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default AboutMe;
+export default AboutMe

@@ -1,5 +1,5 @@
-import ButtonSecondary from './UI/ButtonSecondary';
-import styles from '../styles/ContactMe.module.scss';
+import ButtonSecondary from './UI/ButtonSecondary'
+import styles from '../styles/components/ContactMe.module.scss'
 
 const ContactMe = ({ mt, mb }) => {
   return (
@@ -8,7 +8,7 @@ const ContactMe = ({ mt, mb }) => {
       <div className={styles.separador}></div>
       <ButtonSecondary>contact me</ButtonSecondary>
     </div>
-  );
-};
+  )
+}
 
-export default ContactMe;
+export default ContactMe

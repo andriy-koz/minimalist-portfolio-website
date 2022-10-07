@@ -1,5 +1,5 @@
-import ButtonPrimary from './UI/ButtonPrimary';
-import styles from '../styles/Hero.module.scss';
+import ButtonPrimary from './UI/ButtonPrimary'
+import styles from '../styles/components/Hero.module.scss'
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
         <ButtonPrimary>about me</ButtonPrimary>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

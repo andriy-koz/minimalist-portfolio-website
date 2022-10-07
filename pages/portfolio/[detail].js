@@ -1,11 +1,11 @@
-import Image from "next/image"
-import Link from "next/link"
-import ContactMe from "../../components/ContactMe"
-import ButtonSecondary from "../../components/UI/ButtonSecondary"
-import ButtonProjects from "../../components/UI/ButtonProjects"
-import db from "../../db.json"
+import Image from 'next/image'
+import Link from 'next/link'
+import ContactMe from '../../components/ContactMe'
+import ButtonSecondary from '../../components/UI/ButtonSecondary'
+import ButtonProjects from '../../components/UI/ButtonProjects'
+import db from '../../db.json'
 
-import styles from "../../styles/detail.module.scss"
+import styles from '../../styles/pages/detail.module.scss'
 
 const ProjectDetail = ({
   title,
@@ -20,7 +20,7 @@ const ProjectDetail = ({
 }) => {
   return (
     <div className="container">
-      <div className={styles["img-hero"]}>
+      <div className={styles['img-hero']}>
         <Image src={imgHero} alt="Main image" width={1110} height={500} />
       </div>
       <div className={styles.main}>
@@ -44,7 +44,7 @@ const ProjectDetail = ({
           </p>
           <h3>Static Previews</h3>
           <div>
-            <div className={styles["preview-1"]}>
+            <div className={styles['preview-1']}>
               <Image
                 src={imgPreview1}
                 alt="First static preview"
@@ -53,7 +53,7 @@ const ProjectDetail = ({
                 layout="fixed"
               />
             </div>
-            <div className={styles["preview-2"]}>
+            <div className={styles['preview-2']}>
               <Image
                 src={imgPreview2}
                 alt="Second static preview"
@@ -101,11 +101,11 @@ export async function getStaticProps({ params }) {
     props: {
       title: info.title,
       info: info.info,
-      imgHero: info["img-hero"],
-      imgPreview1: info["img-preview-1"],
-      imgPreview2: info["img-preview-2"],
-      span1: info["span-1"],
-      span2: info["span-2"],
+      imgHero: info['img-hero'],
+      imgPreview1: info['img-preview-1'],
+      imgPreview2: info['img-preview-2'],
+      span1: info['span-1'],
+      span2: info['span-2'],
       next: info.next,
       prev: info.prev,
     },

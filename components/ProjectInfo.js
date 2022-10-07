@@ -1,12 +1,12 @@
-import Image from "next/image"
-import Link from "next/link"
-import ButtonSecondary from "./UI/ButtonSecondary"
-import styles from "../styles/ProjectInfo.module.scss"
+import Image from 'next/image'
+import Link from 'next/link'
+import ButtonSecondary from './UI/ButtonSecondary'
+import styles from '../styles/components/ProjectInfo.module.scss'
 
 const ProjectInfo = ({ title, info, src, reverse }) => {
   return (
     <div
-      className={`${styles.main} container ${reverse ? styles.reverse : ""}`}
+      className={`${styles.main} container ${reverse ? styles.reverse : ''}`}
     >
       <div className={styles.image}>
         <Image
