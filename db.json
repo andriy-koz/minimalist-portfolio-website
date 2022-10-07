@@ -1,22 +1,54 @@
 [
   {
+    "id": "manage",
     "title": "Manage",
     "info": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.",
-    "src": "/image-portfolio-manage.webp"
+    "img-portfolio": "/image-portfolio-manage.webp",
+    "img-hero": "/image-manage-hero.jpg",
+    "img-preview-1": "/image-manage-preview-1.jpg",
+    "img-preview-2": "/image-manage-preview-2.jpg",
+    "span-1": "Interaction Design / Front End Development",
+    "span-2": "HTML / CSS / JS",
+    "next": "Bookmark",
+    "prev": "Fylo"
   },
   {
+    "id": "bookmark",
     "title": "Bookmark",
     "info": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.",
-    "src": "/image-portfolio-bookmark.webp"
+    "img-portfolio": "/image-portfolio-bookmark.webp",
+    "img-hero": "/image-bookmark-hero.jpg",
+    "img-preview-1": "/image-bookmark-preview-1.jpg",
+    "img-preview-2": "/image-bookmark-preview-2.jpg",
+    "span-1": "Interaction Design / Front End Development",
+    "span-2": "HTML / CSS / JS",
+    "next": "Insure",
+    "prev": "Manage"
   },
   {
+    "id": "insure",
     "title": "Insure",
     "info": "This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.",
-    "src": "/image-portfolio-insure.webp"
+    "img-portfolio": "/image-portfolio-insure.webp",
+    "img-hero": "/image-insure-hero.jpg",
+    "img-preview-1": "/image-insure-preview-1.jpg",
+    "img-preview-2": "/image-insure-preview-2.jpg",
+    "span-1": "Interaction Design / Front End Development",
+    "span-2": "HTML / CSS / JS",
+    "next": "Fylo",
+    "prev": "Bookmark"
   },
   {
+    "id": "fylo",
     "title": "Fylo",
     "info": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
-    "src": "/image-portfolio-fylo.webp"
+    "img-portfolio": "/image-portfolio-fylo.webp",
+    "img-hero": "/image-fylo-hero.jpg",
+    "img-preview-1": "/image-fylo-preview-1.jpg",
+    "img-preview-2": "/image-fylo-preview-2.jpg",
+    "span-1": "Interaction Design / Front End Development",
+    "span-2": "HTML / CSS",
+    "next": "Manage",
+    "prev": "Insure"
   }
 ]

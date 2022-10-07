@@ -1,41 +1,41 @@
-import Link from 'next/link';
-import Image from 'next/image';
-import styles from '../styles/Footer.module.scss';
-import TrianglesLogo from './UI/TrianglesLogo';
+import Link from "next/link"
+import Image from "next/image"
+import styles from "../styles/Footer.module.scss"
+import TrianglesLogo from "./UI/TrianglesLogo"
 
 const Footer = () => {
   return (
     <div className={styles.footer}>
-      <div className={`${styles['footer-container']} container`}>
+      <div className={`${styles["footer-container"]} container`}>
         <TrianglesLogo footer />
-        <div className={styles['links-container']}>
-          <Link href=''>home</Link>
-          <Link href=''>portfolio</Link>
-          <Link href=''>contact me</Link>
+        <div className={styles["links-container"]}>
+          <Link href="/">home</Link>
+          <Link href="/portfolio">portfolio</Link>
+          <Link href="">contact me</Link>
         </div>
-        <div className={styles['images-container']}>
+        <div className={styles["images-container"]}>
           <Image
-            src={'/logo-github.svg'}
+            src={"/logo-github.svg"}
             height={24}
             width={24}
-            alt='GitHub logo'
+            alt="GitHub logo"
           />
           <Image
-            src={'/logo-twitter.svg'}
+            src={"/logo-twitter.svg"}
             height={24}
             width={24}
-            alt='Twitter logo'
+            alt="Twitter logo"
           />
           <Image
-            src={'/logo-linkedin.svg'}
+            src={"/logo-linkedin.svg"}
             height={24}
             width={24}
-            alt='Linkedin logo'
+            alt="Linkedin logo"
           />
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

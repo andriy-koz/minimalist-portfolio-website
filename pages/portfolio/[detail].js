@@ -1,32 +1,34 @@
 import Image from "next/image"
+import Link from "next/link"
 import ContactMe from "../../components/ContactMe"
 import ButtonSecondary from "../../components/UI/ButtonSecondary"
 import ButtonProjects from "../../components/UI/ButtonProjects"
+import db from "../../db.json"
 
 import styles from "../../styles/detail.module.scss"
 
-const ProjectDetail = () => {
+const ProjectDetail = ({
+  title,
+  info,
+  imgHero,
+  imgPreview1,
+  imgPreview2,
+  span1,
+  span2,
+  next,
+  prev,
+}) => {
   return (
     <div className="container">
       <div className={styles["img-hero"]}>
-        <Image
-          src="/image-manage-hero.jpg"
-          alt="Main image"
-          width={1110}
-          height={500}
-        />
+        <Image src={imgHero} alt="Main image" width={1110} height={500} />
       </div>
       <div className={styles.main}>
         <section className={styles.left}>
-          <h2>Manage</h2>
-          <p>
-            This project required me to build a fully responsive landing page to
-            the designs provided. I used HTML5, along with CSS Grid and
-            JavaScript for the areas that required interactivity, such as the
-            testimonial slider.
-          </p>
-          <span>Interction Design / Front End Development</span>
-          <span>HTML / CSS / JS</span>
+          <h2>{title}</h2>
+          <p>{info}</p>
+          <span>{span1}</span>
+          <span>{span2}</span>
           <ButtonSecondary>visit website</ButtonSecondary>
         </section>
         <section className={styles.right}>
@@ -44,7 +46,7 @@ const ProjectDetail = () => {
           <div>
             <div className={styles["preview-1"]}>
               <Image
-                src="/image-manage-preview-1.jpg"
+                src={imgPreview1}
                 alt="First static preview"
                 width={635}
                 height={400}
@@ -53,7 +55,7 @@ const ProjectDetail = () => {
             </div>
             <div className={styles["preview-2"]}>
               <Image
-                src="/image-manage-preview-2.jpg"
+                src={imgPreview2}
                 alt="Second static preview"
                 width={635}
                 height={400}
@@ -64,9 +66,17 @@ const ProjectDetail = () => {
         </section>
       </div>
       <nav className={styles.nav}>
-        <ButtonProjects direction="prev">Flyo</ButtonProjects>
+        <Link href={`/portfolio/${prev.toLowerCase()}`}>
+          <a>
+            <ButtonProjects direction="prev">{prev}</ButtonProjects>
+          </a>
+        </Link>
         <div className={styles.midLine} />
-        <ButtonProjects direction="next">Bookmark</ButtonProjects>
+        <Link href={`/portfolio/${next.toLowerCase()}`}>
+          <a>
+            <ButtonProjects direction="next">{next}</ButtonProjects>
+          </a>
+        </Link>
       </nav>
       <ContactMe mt={114} mb={132} />
     </div>
@@ -74,3 +84,30 @@ const ProjectDetail = () => {
 }
 
 export default ProjectDetail
+
+export async function getStaticPaths() {
+  const getPaths = db.map((item) => `/portfolio/${item.id}`)
+
+  return {
+    paths: getPaths,
+    fallback: false,
+  }
+}
+
+export async function getStaticProps({ params }) {
+  const [info] = db.filter((item) => item.id === params.detail)
+
+  return {
+    props: {
+      title: info.title,
+      info: info.info,
+      imgHero: info["img-hero"],
+      imgPreview1: info["img-preview-1"],
+      imgPreview2: info["img-preview-2"],
+      span1: info["span-1"],
+      span2: info["span-2"],
+      next: info.next,
+      prev: info.prev,
+    },
+  }
+}
