@@ -20,8 +20,8 @@ const Navbar = () => {
         >
           <Link href="/portfolio">portfolio</Link>
         </li>
-        <li>
-          <Link href="">contact me</Link>
+        <li className={router.pathname === "/contact" ? styles.active : ""}>
+          <Link href="/contact">contact me</Link>
         </li>
       </ul>
     </nav>

@@ -1,0 +1,93 @@
+@import "variables";
+
+.main {
+  color: $grayish-blue;
+}
+
+.get-in-touch {
+  margin-top: 95px;
+  border-top: 1px solid rgba(51, 50, 61, 0.2);
+  border-bottom: 1px solid rgba(51, 50, 61, 0.2);
+  padding-top: 48px;
+  padding-bottom: 44px;
+  display: flex;
+  justify-content: space-between;
+  section {
+    max-width: 635px;
+    ul {
+      margin-top: 22px;
+      display: flex;
+      gap: 16px;
+      li:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.contact-me {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+  form {
+    max-width: 635px;
+    display: flex;
+    flex-direction: column;
+    input,
+    textarea {
+      font-family: $font-public;
+      margin-top: 14px;
+      border: none;
+      background-color: rgba(51, 50, 61, 0.1);
+      padding-left: 16px;
+      border: 1px solid #fff;
+    }
+    input {
+      width: 635px;
+      height: 48px;
+    }
+    input:active,
+    input:focus,
+    textarea:active,
+    textarea:focus {
+      border: 1px solid $cyan;
+    }
+    label {
+      font-size: 13px;
+      font-weight: 700;
+      margin-top: 3px;
+    }
+    label:first-of-type {
+      margin-top: 8px;
+    }
+    textarea {
+      height: 96px;
+      padding-top: 16px;
+      resize: none;
+    }
+    textarea::placeholder,
+    input::placeholder {
+      color: rgba(51, 50, 61, 0.3);
+    }
+    button {
+      margin-top: 24px;
+      align-self: flex-start;
+      width: 200px;
+    }
+    p {
+      opacity: 0;
+      cursor: default;
+    }
+    .error-border {
+      border: 1px solid $errors-red;
+    }
+    .error-msg {
+      opacity: 1;
+      color: $errors-red;
+      font-size: 10px;
+      font-weight: 700;
+      font-style: italic;
+    }
+  }
+}

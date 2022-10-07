@@ -1,4 +1,4 @@
-@import 'variables';
+@import "variables";
 
 .btn-primary {
   &:hover {
@@ -31,8 +31,6 @@
   align-items: center;
 }
 
-.stroke-one {
-}
 .stroke-two {
   top: -3.8px;
   opacity: 50%;
@@ -52,4 +50,12 @@
     height: 9px;
     transform: rotate(45deg) skew(-18deg, -18deg) translateX(-50%);
   }
+}
+
+.hide {
+  display: none;
+}
+
+.no-padding {
+  padding-left: 33px;
 }

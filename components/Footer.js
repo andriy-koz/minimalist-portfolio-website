@@ -11,7 +11,7 @@ const Footer = () => {
         <div className={styles["links-container"]}>
           <Link href="/">home</Link>
           <Link href="/portfolio">portfolio</Link>
-          <Link href="">contact me</Link>
+          <Link href="/contact">contact me</Link>
         </div>
         <div className={styles["images-container"]}>
           <Image
