@@ -1,9 +1,9 @@
-@import 'variables';
-@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans&display=swap');
+@import "variables";
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans&display=swap");
 
 html,
 body {
-  font-family: 'Public Sans', sans-serif;
+  font-family: "Public Sans", sans-serif;
   box-sizing: border-box;
 }
 
@@ -79,6 +79,10 @@ li {
 
 .mt-150 {
   margin-top: 150px;
+}
+
+.mt-114 {
+  margin-top: 114px;
 }
 
 .mb-132 {

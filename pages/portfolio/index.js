@@ -1,7 +1,7 @@
-import db from '../db.json';
-import ContactMe from '../components/ContactMe';
-import ProjectInfo from '../components/ProjectInfo';
-import styles from '../styles/portfolio.module.scss';
+import db from '../../db.json';
+import ContactMe from '../../components/ContactMe';
+import ProjectInfo from '../../components/ProjectInfo';
+import styles from '../../styles/portfolio.module.scss';
 
 const portfolio = () => {
   return (

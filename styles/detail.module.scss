@@ -1,0 +1,73 @@
+@import "variables";
+
+.main {
+  color: $grayish-blue;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 115px;
+  gap: 120px;
+  p {
+    opacity: 0.8;
+  }
+}
+.img-hero {
+  margin-top: 95px;
+}
+.left {
+  max-width: 351px;
+  height: auto;
+  border-top: 1px solid rgba(51, 50, 61, 0.2);
+  border-bottom: 1px solid rgba(51, 50, 61, 0.2);
+  padding: 48px 0 48px;
+  p {
+    margin-top: 30px;
+    font-size: 15px;
+  }
+  span {
+    display: block;
+    color: $cyan;
+    font-weight: 700;
+  }
+  span:first-of-type {
+    margin-top: 30px;
+  }
+  span:nth-of-type(2) {
+    margin-top: 28px;
+  }
+  button {
+    margin-top: 38px;
+  }
+}
+
+.right {
+  max-width: 635px;
+  p {
+    margin-top: 32px;
+    font-size: 15px;
+  }
+  h3:nth-of-type(2) {
+    margin-top: 42px;
+  }
+  .preview-1 {
+    margin-top: 30px;
+  }
+  .preview-2 {
+    margin-top: 26px;
+  }
+}
+
+.nav {
+  border-top: 1px solid rgba(51, 50, 61, 0.2);
+  border-bottom: 1px solid rgba(51, 50, 61, 0.2);
+  margin-top: 60px;
+  height: 132px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .midLine {
+    height: 100%;
+    width: 1px;
+    background-color: rgba(51, 50, 61, 0.2);
+  }
+}
