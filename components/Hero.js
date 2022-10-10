@@ -6,7 +6,9 @@ const Hero = () => {
     <div className={styles['main-container']}>
       <div className={styles.info}>
         <h1>Hey, I&apos;m Andriy and I love building beautiful websites</h1>
-        <ButtonPrimary>about me</ButtonPrimary>
+        <a href="#about-me">
+          <ButtonPrimary>about me</ButtonPrimary>
+        </a>
       </div>
     </div>
   )

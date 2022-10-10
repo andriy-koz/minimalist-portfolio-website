@@ -1,16 +1,17 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import ButtonSecondary from './UI/ButtonSecondary'
 import styles from '../styles/components/AboutMe.module.scss'
 
 const AboutMe = () => {
   return (
-    <div className={`${styles['main-container']} container`}>
+    <div className={`${styles['main-container']} container`} id="about-me">
       <div className={styles['image-container']}>
         <Image
           alt="Profile photo"
           width={540}
           height={600}
-          src={'/image-homepage-profile.webp'}
+          src={'/homepage/image-homepage-profile.webp'}
           layout="fixed"
         />
       </div>
@@ -26,7 +27,11 @@ const AboutMe = () => {
           outdoors. I love being out in nature whether that’s going for a walk,
           run or cycling. I’d love you to check out my work.
         </p>
-        <ButtonSecondary>go to portfolio</ButtonSecondary>
+        <Link href="/portfolio">
+          <a>
+            <ButtonSecondary>go to portfolio</ButtonSecondary>
+          </a>
+        </Link>
       </div>
     </div>
   )
