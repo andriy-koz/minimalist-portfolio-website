@@ -14,4 +14,16 @@
   width: 531px;
   height: 1px;
   background-color: rgba(51, 50, 61, 0.2);
+  @media (max-width: 1104px) {
+    max-width: 280px;
+  }
+  @media (max-width: 944px) {
+    max-width: 240px;
+  }
+  @media (max-width: 900px) {
+    max-width: 120px;
+  }
+  @media (max-width: 790px) {
+    max-width: 100px;
+  }
 }

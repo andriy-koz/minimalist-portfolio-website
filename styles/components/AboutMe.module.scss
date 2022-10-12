@@ -20,9 +20,26 @@
   button {
     margin-top: 24px;
   }
+
+  @media (max-width: 1104px) {
+    margin-left: 70px;
+  }
 }
 
 .image-container {
+  background-image: url('/homepage/image-homepage-profile.webp');
+  background-position: center;
+  background-repeat: no-repeat;
   width: 540px;
   height: 600px;
+  @media (max-width: 1012px) {
+    width: 440px;
+  }
+  @media (max-width: 934px) {
+    width: 380px;
+  }
+  @media (max-width: 860px) {
+    width: 281px;
+    background-position: right;
+  }
 }

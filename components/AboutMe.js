@@ -6,15 +6,8 @@ import styles from '../styles/components/AboutMe.module.scss'
 const AboutMe = () => {
   return (
     <div className={`${styles['main-container']} container`} id="about-me">
-      <div className={styles['image-container']}>
-        <Image
-          alt="Profile photo"
-          width={540}
-          height={600}
-          src={'/homepage/image-homepage-profile.webp'}
-          layout="fixed"
-        />
-      </div>
+      <div className={styles['image-container']} />
+
       <div className={styles['side-info']}>
         <h2>About Me</h2>
         <p>

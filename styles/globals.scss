@@ -76,6 +76,11 @@ li {
 .container {
   max-width: 1110px;
   margin: 0 auto;
+
+  @media (max-width: 1104px) {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
 }
 
 .mt-150 {

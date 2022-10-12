@@ -7,23 +7,33 @@
   background-image: url('/homepage/image-homepage-hero.webp');
   background-repeat: no-repeat;
   background-position: top 0px right -30px;
+
+  @media (max-width: 1104px) {
+    margin-left: 45px;
+    margin-right: 45px;
+    background-position: center;
+  }
 }
 
 .info {
+  position: absolute;
+  left: 0;
+  top: 264px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 357px;
   width: 445px;
   background-color: #fff;
-  position: absolute;
-  bottom: -20px;
-  left: 0;
-  margin-left: 165px;
-
+  position: relative;
   button {
     position: absolute;
     bottom: 0;
     left: 0;
+  }
+
+  @media (max-width: 1104px) {
+    margin-left: -45px;
+    margin-right: -45px;
   }
 }
