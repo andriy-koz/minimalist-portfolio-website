@@ -9,13 +9,7 @@ const ProjectInfo = ({ title, info, src, reverse }) => {
       className={`${styles.main} container ${reverse ? styles.reverse : ''}`}
     >
       <div className={styles.image}>
-        <Image
-          src={src}
-          alt="Manage preview"
-          width={540}
-          height={500}
-          layout="fixed"
-        />
+        <Image src={src} alt="Manage preview" width={540} height={500} />
       </div>
       <div className={styles.info}>
         <h2>{title}</h2>

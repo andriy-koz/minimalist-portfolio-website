@@ -4,6 +4,9 @@
   display: flex;
   align-items: center;
   gap: 125px;
+  @media (max-width: 768px) {
+    gap: 69px;
+  }
 }
 
 .info {
@@ -21,6 +24,12 @@
   align-items: flex-start;
   border-top: 1px solid rgba(51, 50, 61, 0.2);
   border-bottom: 1px solid rgba(51, 50, 61, 0.2);
+  @media (max-width: 768px) {
+    p {
+      font-size: 15px;
+    }
+    max-width: 281px;
+  }
 }
 
 .reverse {
