@@ -18,18 +18,21 @@ const ProjectDetail = ({
   next,
   prev,
 }) => {
-  return (
+  return (<>
     <div className="container">
       <div className={styles['img-hero']}>
-        <Image src={imgHero} alt="Main image" width={1110} height={500} />
+        <Image src={imgHero} alt="Main image" width={1110} height={500} layout="intrinsic"/>
       </div>
       <div className={styles.main}>
         <section className={styles.left}>
-          <h2>{title}</h2>
-          <p>{info}</p>
-          <span>{span1}</span>
-          <span>{span2}</span>
-          <ButtonSecondary>visit website</ButtonSecondary>
+          <div className={styles['left-cta']}>
+            <h2>{title}</h2>
+            <p className={styles['info-desktop']}>{info}</p>
+            <span>{span1}</span>
+            <span>{span2}</span>
+            <ButtonSecondary>visit website</ButtonSecondary>
+          </div>
+          <p className={styles['info-mobile']}>{info}</p>
         </section>
         <section className={styles.right}>
           <h3>Project Background</h3>
@@ -78,9 +81,9 @@ const ProjectDetail = ({
           </a>
         </Link>
       </nav>
-      <ContactMe mt={114} mb={132} />
     </div>
-  )
+      <ContactMe mt={75} mb={80} />
+    </>)
 }
 
 export default ProjectDetail

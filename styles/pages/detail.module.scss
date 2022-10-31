@@ -10,6 +10,42 @@
   p {
     opacity: 0.8;
   }
+  .info-mobile {
+    display: nonew;
+  }
+  .left {
+    display: flex;
+    max-width: 100%;
+  }
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 42px;
+    .left {
+      gap: 64px;
+    }
+    .info-desktop {
+      display: none;
+    }
+    .info-mobile {
+      margin-top: 0;
+      display: block;
+      max-width: 339px;
+    }
+    .left-cta {
+      span {
+        font-size: 13px;
+      }
+      span:first-of-type {
+        margin-top: 24px;
+      }
+      span:nth-of-type(2) {
+        margin-top: 20px;
+      }
+      button {
+        margin-top: 26px;
+      }
+    }
+  }
 }
 .img-hero {
   margin-top: 95px;
