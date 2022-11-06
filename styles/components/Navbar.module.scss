@@ -14,8 +14,38 @@
   gap: 42px;
 }
 
+.menu {
+  display: none;
+}
+
 .active {
   a {
     color: $cyan;
   }
+}
+
+@media (max-width: 420px) {
+  .links {
+    display: none;
+  }
+  .menu {
+    display: block;
+    position: relative;
+  }
+}
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 18px 12px;
+  backdrop-filter: blur(2px);
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(256,256,256, 0.8);
+}
+
+.hide {
+  display: none;
 }

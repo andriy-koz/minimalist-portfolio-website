@@ -82,6 +82,10 @@ li {
     padding-left: 45px;
     padding-right: 45px;
   }
+  @media (max-width: 535px) {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
 
 .mt-75 {
