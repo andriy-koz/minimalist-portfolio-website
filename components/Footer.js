@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className={styles.footer}>
       <div className={`${styles['footer-container']} container`}>
-        <LogoTriangles footer />
+        <LogoTriangles footer className={styles.triangles}/>
         <div className={styles['links-container']}>
           <Link href="/">home</Link>
           <Link href="/portfolio">portfolio</Link>

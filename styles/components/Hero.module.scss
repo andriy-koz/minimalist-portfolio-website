@@ -18,7 +18,7 @@
     background-size: contain;
     background-position: center;
     height: auto;
-    margin-top: 0px;
+    margin-top: 48px;
     margin-bottom: 358px;
   }
 }
@@ -52,6 +52,10 @@
       font-size: 40px;
       line-height: 42px;
       letter-spacing: -0.36px;
+      margin-top: 20px;
+    }
+    button {
+      bottom: 20px;
     }
   }
 }

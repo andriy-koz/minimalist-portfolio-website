@@ -28,6 +28,9 @@
 .logo-footer {
   border-bottom: 26px solid #fff;
   transform: translateY(50%);
+  @media (max-width: 535px) {
+    transform: translateY(0%) translateX(50%);
+  }
 }
 
 .logo-footer.logo-triangle-2 {

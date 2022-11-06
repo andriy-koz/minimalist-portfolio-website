@@ -3,9 +3,12 @@
   align-items: center;
   gap: 32px;
   justify-content: space-between;
-
   h2 {
     max-width: 340px;
+  }
+  @media (max-width: 535px) {
+    flex-direction: column;
+    margin-top: 135px;
   }
 }
 
@@ -25,5 +28,8 @@
   }
   @media (max-width: 790px) {
     max-width: 100px;
+  }
+  @media (max-width: 535px) {
+    display: none;
   }
 }
