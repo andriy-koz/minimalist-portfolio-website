@@ -55,5 +55,8 @@
     width: 100%;
     height: 400px;
   }
+  @media (max-width: 375px) {
+    background-image: url('/homepage/image-homepage-profile-mobile.jpg');
+  }
 }
 

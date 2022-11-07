@@ -9,6 +9,13 @@
   @media (max-width: 535px) {
     flex-direction: column;
     margin-top: 135px;
+    h2 {
+      text-align: center;
+    }
+  }
+  @media (max-width: 375px) {
+    margin-top: 120px;
+    margin-bottom: 75px;
   }
 }
 

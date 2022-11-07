@@ -35,13 +35,15 @@
 }
 
 .mobile-menu {
+  width: 130px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
   padding: 18px 12px;
   backdrop-filter: blur(2px);
-  transform: translateX(-50%);
+  transform: translateX(-60%);
   position: absolute;
+  top: 26px;
   z-index: 1;
   background-color: rgba(256,256,256, 0.8);
 }

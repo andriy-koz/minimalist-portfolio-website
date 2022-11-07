@@ -21,6 +21,10 @@
     margin-top: 48px;
     margin-bottom: 358px;
   }
+  @media (max-width: 375px) {
+    margin-top: 0px;
+    margin-left: 32px;
+  }
 }
 
 .info {
@@ -56,6 +60,13 @@
     }
     button {
       bottom: 20px;
+    }
+  }
+  @media (max-width: 375px) {
+    margin-left: -32px;
+    max-width: 310px;
+    button {
+      bottom: 0px;
     }
   }
 }
