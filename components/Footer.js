@@ -7,31 +7,13 @@ const Footer = () => {
   return (
     <div className={styles.footer}>
       <div className={`${styles['footer-container']} container`}>
-        <LogoTriangles footer className={styles.triangles}/>
+      <div className={styles.logoDark}>
+        <Image src="/icons/SolidMay_logo_dark.webp" alt="SolidMay logo" width={130} height={32} layout="fixed" />
+      </div>
         <div className={styles['links-container']}>
           <Link href="/">home</Link>
           <Link href="/portfolio">portfolio</Link>
-          <Link href="/contact">contact me</Link>
-        </div>
-        <div className={styles['images-container']}>
-          <Image
-            src={'/icons/github-white.svg'}
-            height={24}
-            width={24}
-            alt="GitHub logo"
-          />
-          <Image
-            src={'/icons/twitter-white.svg'}
-            height={24}
-            width={24}
-            alt="Twitter logo"
-          />
-          <Image
-            src={'/icons/linkedin-white.svg'}
-            height={24}
-            width={24}
-            alt="Linkedin logo"
-          />
+          <Link href="/contact">contact us</Link>
         </div>
       </div>
     </div>

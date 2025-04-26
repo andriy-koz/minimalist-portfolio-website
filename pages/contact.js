@@ -25,45 +25,13 @@ const ContactPage = () => {
         <h2>Get in Touch</h2>
         <section>
           <p>
-            I’d love to hear about what you’re working on and how I could help.
-            I’m currently looking for a new role and am open to a wide range of
-            opportunities. My preference would be to find a position in a
-            company in London. But I’m also happy to hear about opportunites
-            that don’t fit that description. I’m a hard-working and positive
-            person who will always approach each task with a sense of purpose
-            and attention to detail. Please do feel free to check out my online
-            profiles below and get in touch using the form.
+          We'd love to hear what challenges you're facing and how we can help. We're always open to new projects and partnerships—especially if you're looking to boost efficiency, cut costs, and drive growth through smart automation. We're flexible and happy to collaborate with businesses of any size or industry, locally or remotely. Our team approaches every project with enthusiasm, precision, and a clear focus on results. Feel free to explore our portfolio and reach out to us below—we can't wait to chat!
           </p>
-          <ul>
-            <li>
-              <Image
-                src={'/icons/github.svg'}
-                alt="GitHub icon"
-                width={24}
-                height={24}
-              />
-            </li>
-            <li>
-              <Image
-                src={'/icons/twitter.svg'}
-                alt="Twitter icon"
-                width={24}
-                height={24}
-              />
-            </li>
-            <li>
-              <Image
-                src={'/icons/linkedin.svg'}
-                alt="LinkedIn icon"
-                width={24}
-                height={24}
-              />
-            </li>
-          </ul>
+          
         </section>
       </div>
       <div className={styles['contact-me']}>
-        <h2>Contact Me</h2>
+        <h2>Contact Us</h2>
         <form>
           <label htmlFor="name">Name</label>
           <input

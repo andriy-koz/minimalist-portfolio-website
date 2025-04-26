@@ -9,7 +9,7 @@ const ContactMe = ({ mt, mb }) => {
       <div className={styles.separador}></div>
       <Link href="/contact">
         <a>
-          <ButtonSecondary>contact me</ButtonSecondary>
+          <ButtonSecondary>contact us</ButtonSecondary>
         </a>
       </Link>
     </div>

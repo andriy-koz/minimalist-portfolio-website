@@ -1,9 +1,9 @@
 [
   {
     "id": "manage",
-    "title": "Manage",
-    "info": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.",
-    "img-portfolio": "/portfolio/image-portfolio-manage.webp",
+    "title": "Social Media Buster",
+    "info": "This n8n workflow automates trend-based social media posting. It fetches trends, scores relevance with AI, adapts tone to sentiment, and generates platform-specific content. It’s reliable, adaptive, and ideal for daily auto-posting.",
+    "img-portfolio": "/portfolio/image-portfolio-social-media.webp",
     "img-hero": "/manage/image-manage-hero.jpg",
     "img-preview-1": "/manage/image-manage-preview-1.jpg",
     "img-preview-2": "/manage/image-manage-preview-2.jpg",
@@ -14,9 +14,9 @@
   },
   {
     "id": "bookmark",
-    "title": "Bookmark",
-    "info": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.",
-    "img-portfolio": "/portfolio/image-portfolio-bookmark.webp",
+    "title": "Lead Generator",
+    "info": "We’ve developed a fully automated lead generation system using open-source tools (like n8n), ideal for freelancers, agencies, and businesses looking to collect public contact data from local businesses.",
+    "img-portfolio": "/portfolio/image-portfolio-lead-gen.webp",
     "img-hero": "/bookmark/image-bookmark-hero.jpg",
     "img-preview-1": "/bookmark/image-bookmark-preview-1.jpg",
     "img-preview-2": "/bookmark/image-bookmark-preview-2.jpg",
@@ -27,9 +27,9 @@
   },
   {
     "id": "insure",
-    "title": "Insure",
-    "info": "This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.",
-    "img-portfolio": "/portfolio/image-portfolio-insure.webp",
+    "title": "Auto Video Editor",
+    "info": "Automated video creation pipeline using n8n and FFmpeg. It fetches media from Airtable, merges audio and B-roll, transcribes speech using OpenAI Whisper, adds styled subtitles, and joins the result with the main video. The final video is uploaded to Google Drive. Ideal for generating videos with minimal manual effort.",
+    "img-portfolio": "/portfolio/image-portfolio-video-editor.webp",
     "img-hero": "/insure/image-insure-hero.jpg",
     "img-preview-1": "/insure/image-insure-preview-1.jpg",
     "img-preview-2": "/insure/image-insure-preview-2.jpg",
@@ -37,18 +37,5 @@
     "span-2": "HTML / CSS / JS",
     "next": "Fylo",
     "prev": "Bookmark"
-  },
-  {
-    "id": "fylo",
-    "title": "Fylo",
-    "info": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.",
-    "img-portfolio": "/portfolio/image-portfolio-fylo.webp",
-    "img-hero": "/fylo/image-fylo-hero.jpg",
-    "img-preview-1": "/fylo/image-fylo-preview-1.jpg",
-    "img-preview-2": "/fylo/image-fylo-preview-2.jpg",
-    "span-1": "Interaction Design / Front End Development",
-    "span-2": "HTML / CSS",
-    "next": "Manage",
-    "prev": "Insure"
   }
 ]

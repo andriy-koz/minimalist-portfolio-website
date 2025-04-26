@@ -14,6 +14,12 @@
   gap: 42px;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  margin-top: -6px;
+}
+
 .menu {
   display: none;
 }

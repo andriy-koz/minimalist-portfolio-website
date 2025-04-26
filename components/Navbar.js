@@ -2,7 +2,6 @@ import { useRouter } from 'next/router'
 import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import LogoTriangles from './UI/LogoTriangles'
 import styles from '../styles/components/Navbar.module.scss'
 
 const Navbar = () => {
@@ -15,7 +14,11 @@ const Navbar = () => {
 
   return (
     <nav className={`container ${styles.navbar}`}>
-      <LogoTriangles />
+      
+      <div className={styles.logo}>
+        <Image src="/icons/SolidMay_logo.webp" alt="SolidMay logo" width={130} height={32} layout="fixed" />
+      </div>
+
       <ul className={styles.links}>
         <li className={router.pathname === '/' ? styles.active : ''}>
           <Link href="/">home</Link>
@@ -28,7 +31,7 @@ const Navbar = () => {
           <Link href="/portfolio">portfolio</Link>
         </li>
         <li className={router.pathname === '/contact' ? styles.active : ''}>
-          <Link href="/contact">contact me</Link>
+          <Link href="/contact">contact us</Link>
         </li>
       </ul>
 
@@ -49,7 +52,7 @@ const Navbar = () => {
           <Link href="/portfolio">portfolio</Link>
         </li>
         <li className={router.pathname === '/contact' ? styles.active : ''} onClick={menuHandler}>
-          <Link href="/contact">contact me</Link>
+          <Link href="/contact">contact us</Link>
         </li>
         </ul>
       </div>

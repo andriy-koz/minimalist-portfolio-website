@@ -14,11 +14,6 @@ const ProjectInfo = ({ title, info, src, reverse }) => {
       <div className={styles.info}>
         <h2>{title}</h2>
         <p>{info}</p>
-        <Link href={`/portfolio/${title.toLowerCase()}`}>
-          <a>
-            <ButtonSecondary>view project</ButtonSecondary>
-          </a>
-        </Link>
       </div>
     </div>
   )

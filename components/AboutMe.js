@@ -8,16 +8,9 @@ const AboutMe = () => {
       <div className={styles['image-container']} />
 
       <div className={styles['side-info']}>
-        <h2>About Me</h2>
+        <h2>About Us</h2>
         <p>
-          I’m a junior front-end developer looking for a new role in an exciting
-          company. I focus on writing accessible HTML, using modern CSS
-          practices and writing clean JavaScript. When writing JavaScript code,
-          I mostly use React, but I can adapt to whatever tools are required.
-          I’m based in London, UK, but I’m happy working remotely and have
-          experience in remote teams. When I’m not coding, you’ll find me
-          outdoors. I love being out in nature whether that’s going for a walk,
-          run or cycling. I’d love you to check out my work.
+        We're a friendly AI automation agency passionate about streamlining your workflows and boosting your bottom line. We focus on creating simple, effective automations that save you time, cut costs, and help your business grow. Our remote team loves turning complex processes into smooth, profitable outcomes. And when we're not optimizing business operations, you'll find us enjoying the outdoors, exploring new tech, or brainstorming fresh ideas. Let's chat about how automation can elevate your business!
         </p>
         <Link href="/portfolio">
           <a>
