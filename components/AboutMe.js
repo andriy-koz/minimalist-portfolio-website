@@ -10,7 +10,7 @@ const AboutMe = () => {
       <div className={styles['side-info']}>
         <h2>About Us</h2>
         <p>
-        We're a friendly AI automation agency passionate about streamlining your workflows and boosting your bottom line. We focus on creating simple, effective automations that save you time, cut costs, and help your business grow. Our remote team loves turning complex processes into smooth, profitable outcomes. And when we're not optimizing business operations, you'll find us enjoying the outdoors, exploring new tech, or brainstorming fresh ideas. Let's chat about how automation can elevate your business!
+        We&apos;re a friendly AI automation agency passionate about streamlining your workflows and boosting your bottom line. We focus on creating simple, effective automations that save you time, cut costs, and help your business grow. Our remote team loves turning complex processes into smooth, profitable outcomes. And when we&apos;re not optimizing business operations, you&apos;ll find us enjoying the outdoors, exploring new tech, or brainstorming fresh ideas. Let&apos;s chat about how automation can elevate your business!
         </p>
         <Link href="/portfolio">
           <a>

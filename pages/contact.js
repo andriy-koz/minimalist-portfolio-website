@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import ButtonPrimary from '../components/UI/ButtonPrimary'
 import useForm from '../hooks/use-form'
 import styles from '../styles/pages/contact.module.scss'
@@ -25,7 +24,7 @@ const ContactPage = () => {
         <h2>Get in Touch</h2>
         <section>
           <p>
-          We'd love to hear what challenges you're facing and how we can help. We're always open to new projects and partnerships—especially if you're looking to boost efficiency, cut costs, and drive growth through smart automation. We're flexible and happy to collaborate with businesses of any size or industry, locally or remotely. Our team approaches every project with enthusiasm, precision, and a clear focus on results. Feel free to explore our portfolio and reach out to us below—we can't wait to chat!
+          We&apos;d love to hear what challenges you&apos;re facing and how we can help. We&apos;re always open to new projects and partnerships—especially if you&apos;re looking to boost efficiency, cut costs, and drive growth through smart automation. We&apos;re flexible and happy to collaborate with businesses of any size or industry, locally or remotely. Our team approaches every project with enthusiasm, precision, and a clear focus on results. Feel free to explore our portfolio and reach out to us below—we can&apos;t wait to chat!
           </p>
           
         </section>
